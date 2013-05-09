@@ -1,0 +1,105 @@
+@CHARSET "UTF-8";
+/** Style elements **/
+/** Border (White inside, blue outside) **/
+.box { 
+	background: #FFFFFF; 
+}
+.boxSpace {
+	background: #000066;
+	padding-top: 8.5;
+	padding-bottom: 8.5;
+}
+
+.boxtop { 
+  	background: url(corners/ne.gif) no-repeat top right; 
+}
+.boxtop div { 
+  	height: 15px; 
+  	background: url(corners/nw.gif) no-repeat top left; 
+}
+.boxbottom { 
+  	background: url(corners/se.gif) no-repeat bottom right; 
+}
+.boxbottom div { 
+ 	height: 15px; 
+  	background: url(corners/sw.gif) no-repeat bottom left; 
+}
+.boxcontent {
+	padding: 0px 15px 0px 15px;
+}
+
+.boxcontentHeader {
+	padding: 0px 15px 0px 15px;
+}
+
+/** Layer elements **/
+.footer {
+	text-align: right;
+	color: white;
+	padding-top: 10;
+}
+
+/** Positioning elements **/
+.center {
+	text-align: left;
+	padding-left: 420;
+	color
+	
+}
+/** Core elements **/
+body {
+	background: #000066;
+	color: #000066;
+	padding: 50;
+	padding-top: 20;
+	font: normal;
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+.title {
+	color: white;	
+}
+
+textarea {
+	overflow:hidden;
+}
+
+/** Top menu elements **/
+#navlist {
+	background: #FFCC00;
+	margin: 0px;
+	padding: 0px;
+	height: 16px;
+	border: 1px solid #FFEA93;
+}
+#navlist li {
+	display: inline;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#navlist li a:link, #navlist li a:visited {
+	font: bold 24px/18px Georgia, "Times New Roman", Times, serif;
+	color: #FFEA93;
+	text-decoration: none;
+	display: block;
+	padding: 0px 0px 0px 3px;
+	margin: 0px;
+	height: 16px;
+	overflow: hidden;
+	width: 135px;
+	text-align: center;
+}
+#navlist li a#current {
+	color: #FFFFFF;
+	font-style: italic;
+}
+#navlist li a:hover, #navlist li a:active {
+	color: #000066;
+	text-decoration: none;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+	<user>
+		<id>1</id>
+		<name>demo</name>
+		<pass>demo</pass>
+		<state>offline</state>
+		<buddies></buddies>
+	</user>
+</users>
