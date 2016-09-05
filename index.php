@@ -1,4 +1,4 @@
-<?php 
+<?php
 	// Sessiebuffer clearen;
 	ob_start();
 	// Sessie starten;
@@ -7,9 +7,9 @@
 
 	$titel = strtolower($_GET['title']);
 	if ($titel == ""){$titel = "home"; }
-	
+
 	$head = "Interactive chatclient";
-	
+
 	include("layers/head.php");
 	include("layers/topmenu.php");
 	include ("content/$titel.php");
